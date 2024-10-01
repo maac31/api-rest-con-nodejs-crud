@@ -1,0 +1,16 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "jose gomez el niño gamer",
+            "author": "miguel de servantes",
+            "year": 201
+        },
+        {
+            "id": 2,
+            "title": "el negro guapo",
+            "author": "el tirano",
+            "year": 1601
+        }
+    ]
+}

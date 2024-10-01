@@ -1,0 +1,33 @@
+GET http://localhost:3000/books HTTP/1.1
+
+###############################################
+
+GET http://localhost:3000/books/2 HTTP/1.1
+
+###############################################
+
+POST http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "el negro guapo",
+  "author": "el tirano",
+  "year": 1600
+}
+
+###############################################
+
+PUT http://localhost:3000/books/3 HTTP/1.1
+Content-Type: application/json
+
+{
+  "year": 1601
+}
+  
+###############################################
+
+GET http://localhost:3000/books/4 HTTP/1.1
+
+###############################################
+
+DELETE http://localhost:3000/books/1 HTTP/1.1
